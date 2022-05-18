@@ -1,0 +1,5 @@
+﻿  co2_sensor.c
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\co2_sensor.c(72,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  temp_hum_sensor.c
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.c(86,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...

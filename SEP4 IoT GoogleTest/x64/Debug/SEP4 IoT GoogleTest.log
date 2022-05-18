@@ -1,0 +1,20 @@
+﻿  temp_hum_sensor.c
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(21,2): error C2365: 'HIH8120_OK': redefinition; previous definition was 'enumerator'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\drivers\hih8120.h(41): message : see declaration of 'HIH8120_OK'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(22,2): error C2086: 'temp_hum_statusCodes HIH8120_OK': redefinition
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(21): message : see declaration of 'HIH8120_OK'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(22,3): error C2365: 'HIH8120_OUT_OF_HEAP': redefinition; previous definition was 'enumerator'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\drivers\hih8120.h(42): message : see declaration of 'HIH8120_OUT_OF_HEAP'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(23,2): error C2086: 'temp_hum_statusCodes HIH8120_OUT_OF_HEAP': redefinition
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(22): message : see declaration of 'HIH8120_OUT_OF_HEAP'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(23,3): error C2365: 'HIH8120_DRIVER_NOT_INITIALISED': redefinition; previous definition was 'enumerator'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\drivers\hih8120.h(43): message : see declaration of 'HIH8120_DRIVER_NOT_INITIALISED'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(24,2): error C2086: 'temp_hum_statusCodes HIH8120_DRIVER_NOT_INITIALISED': redefinition
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(23): message : see declaration of 'HIH8120_DRIVER_NOT_INITIALISED'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(24,3): error C2365: 'HIH8120_TWI_BUSY': redefinition; previous definition was 'enumerator'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\drivers\hih8120.h(44): message : see declaration of 'HIH8120_TWI_BUSY'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(25,1): error C2086: 'temp_hum_statusCodes HIH8120_TWI_BUSY': redefinition
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.h(24): message : see declaration of 'HIH8120_TWI_BUSY'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.c(26,42): error C2065: 'temp_hum_sensor_task_handler': undeclared identifier
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.c(26,42): warning C4047: 'function': 'TaskFunction_t' differs in levels of indirection from 'int'
+C:\Users\rasmu\source\repos\SEP4 IoT GoogleTest Solution\ProductionCode\SEP4-IoT\sensors\temp_hum_sensor.c(26,14): warning C4024: 'xTaskCreate': different types for formal and actual parameter 1
