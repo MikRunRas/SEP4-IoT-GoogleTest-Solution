@@ -1,0 +1,3 @@
+[submodule "SEP4-IoT"]
+	path = SEP4-IoT
+	url = https://github.com/marker99/SEP4-IoT
